@@ -11,7 +11,7 @@ var options = {
 };
 
 // Create array of images
-var pages = ['img1', 'img2', 'img3', 'img4']; // Populate the array with your image names
+var pages = ['img1', 'img2', 'img3', 'img4'];  // Populate the array with your image names
 var counter = 0;
 var numPages = pages.length;
 var pageWidth = 500;  // Set your page width
@@ -88,5 +88,4 @@ function prevPage() {
 	$('#leftPage a').fancybox(options);
 	
 	};
-	
 }
