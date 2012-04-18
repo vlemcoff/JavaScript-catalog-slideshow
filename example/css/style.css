@@ -1,10 +1,15 @@
+/* Reset */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 
+/* Font style */
 h1 {font-size:16px;padding-bottom:15px;}
 
-#wrapper {width:1045px;margin:0 auto;position:relative;padding-top:15px;padding-left: 45px;}
-#catalog {width:1000px;}
-#leftPage {width:500px;float:left;}
-#rightPage {width:500px;float:right;}
+/* Page style */
+#wrapper {width:1045px;margin:0 auto;position:relative;padding-top:15px;padding-left: 45px;} /* Adjust width to twice the width of your thumbnail images plus 45px, which is padding for the buttons */
+#catalog {width:1000px;} /* This is the width of the spread. Adjust to twice the width of your thumbnails */
+#leftPage {width:500px;float:left;} /* Adjust width to your thumbnail images */
+#rightPage {width:500px;float:right;} /* Adjust width to your thumbnail images */
+
+/* Previous and next buttons */
 #nav .prev {position:absolute;left:0;top:290px;text-indent:-9999px;background:url("leftBtn.png") no-repeat center center;width:33px;height:32px;}
 #nav .next {position:absolute;right:0;top:290px;text-indent:-9999px;background:url("rightBtn.png") no-repeat center center;width:33px;height:32px;}

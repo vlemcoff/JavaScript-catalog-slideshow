@@ -22,7 +22,12 @@ var pageHeight = 575;
 
 3. CSS:
 
-Adjust the width of #rightPage and #leftPage according to your thumbnail size.
+Adjust the width of #rightPage and #leftPage to equal your thumbnail size.  
+
+Adjust the width of #catalog to twice the width of your thumbnails.
+
+Adjust the width of #wrapper to  twice the width of your thumbnails plus 45px, which is padding for the buttons
+
 
 4. HTML:
 
@@ -52,7 +57,7 @@ Run index.html to see your catalog slideshow in action!
 				<div class="next">Next Page</div>
 			</div><!--CLOSE NAV-->
 			<div id="leftPage"></div>
-			<div id="rightPage"><a href="images/img1.jpg"><img src="images/img1Thmb.jpg" /></a></div>
+			<div id="rightPage"><a href="images/img1.jpg"><img src="images/img1Thmb.jpg" /></a></div> <!-- Insert your cover image and thumbnail names here -->
 		</div><!--CLOSE CATALOG-->
 		
 		<div id="preload">
