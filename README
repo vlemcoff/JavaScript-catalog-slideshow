@@ -1,6 +1,6 @@
 JavaScript Catalog Slideshow v1.0
 
-Display your catalogs or book in an elegant, mobile-friendly format.
+Display your catalogs or books in an elegant, mobile-friendly format.
 
 JavaScript Catalog Slideshow is a jQuery plugin that creates a book-like slideshow using an array of images.  The array allows the user to easily add or interchange spreads/pages in the middle of the book or catalog.  It works on every modern browser including IE.  It zooms in on each page of a spread separately, to maximize the area available for the zoom, thereby rendering text and images more clearly. Its dependencies are jQuery and the jQuery Fancybox plugin.  
 
@@ -19,7 +19,7 @@ Features:
 
 Instructions:
 
-Download the entire repository as a zip or tar and make the following changes to replace the catalog slideshow with your own images:
+Download the entire repository as a zip or tar (https://github.com/veronicaduo/JavaScript-catalog-slideshow) and make the following changes to replace the example with your own catalog/images:
 
 1. Images:
 
@@ -39,11 +39,17 @@ Change the dimensions for the following variables to those of your thumbnails:
 var pageWidth = 500;
 var pageHeight = 575;
 
-3. CSS:
+3. style.css:
 
 Adjust the width of #rightPage and #leftPage according to your thumbnail size.
 
-4. Go to index.html to see your catalog slideshow in action!
+4. index.html:
+
+Change the name of the images inside the rightPage div to your cover image and thumbnail.
+
+<div id="rightPage"><a href="images/img1.jpg"><img src="images/img1Thmb.jpg" /></a></div>
+
+Run index.html to see your catalog slideshow in action!
 
 
 License:
