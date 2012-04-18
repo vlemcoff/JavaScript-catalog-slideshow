@@ -1,0 +1,59 @@
+JavaScript Catalog Slideshow v1.0
+
+Display your catalogs or book in an elegant, mobile-friendly format.
+
+JavaScript Catalog Slideshow is a jQuery plugin that creates a book-like slideshow using an array of images.  The array allows the user to easily add or interchange spreads/pages in the middle of the book or catalog.  It works on every modern browser including IE.  It zooms in on each page of a spread separately, to maximize the area available for the zoom, thereby rendering text and images more clearly. Its dependencies are jQuery and the jQuery Fancybox plugin.  
+
+The biggest difference between this slideshow and others is that it lays out two pages or images side-by-side in order to create a spread.  It also displays single pages for the front cover and back covers.  JavaScript catalog slideshow is ideal for displaying print catalogs on the web without relying on a Flash flip book, which is not compatible with many mobile devices.  It also does not include one of those ubiquitous page flip animations.
+
+
+Features:
+
+- Simple markup using two divs
+- Populates your slideshow with an array to easily add or interchange spreads/pages
+- Zoom-in effect can be highly customized according to Fancybox options
+- Works on all modern browsers including mobile devices
+- Next/Previous control buttons
+- Example and usage instructions included
+
+
+Instructions:
+
+Download the entire repository as a zip or tar and make the following changes to replace the catalog slideshow with your own images:
+
+1. Images:
+
+Name your images: imageName.jpg
+Name your thumbs: imageNameThmb.jpg
+
+Put them in the folder called "images."
+
+2. slideshow.js:
+
+Populate the array with your own image names in your desired order (exclude the .jpg extension):
+
+var pages = ['imageName1', 'imageName2', 'imageName3', 'imageName4'];
+
+Change the dimensions for the following variables to those of your thumbnails:
+
+var pageWidth = 500;
+var pageHeight = 575;
+
+3. CSS:
+
+Adjust the width of #rightPage and #leftPage according to your thumbnail size.
+
+4. Go to index.html to see your catalog slideshow in action!
+
+
+License:
+
+Licensed under the MIT license.
+
+Copyright (c) 2012 Veronica Lemcoff, http://www.bahiadesigns.com
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
